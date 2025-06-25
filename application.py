@@ -19,6 +19,12 @@ def index():
     return render_template('index.html')
 
 
+
+@app.route('/getinfo_dataset')
+def index():
+    return render_template('dataset_info.html')
+
+
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoints():
     if request.method == "POST":
