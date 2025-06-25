@@ -20,9 +20,9 @@ def index():
 
 
 
-@app.route('/getinfo_dataset')
-def index():
-    return render_template('dataset_info.html')
+@app.route('/getinfo_owner')
+def getinfo_dataset():
+    return render_template('info.html')
 
 
 @app.route('/predictdata',methods=['GET','POST'])
