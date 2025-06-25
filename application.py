@@ -55,3 +55,6 @@ if __name__ == '__main__':
 # 10 git branch -M main
 # 11 git remote add origin https://github.com/Amanarun2907/testforestfire.git
 # 12 git push -u origin main
+# 13 git add . 
+# 14 git commit -m "first commit"
+# 15 git push -u origin main
