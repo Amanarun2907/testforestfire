@@ -19,10 +19,13 @@ def index():
     return render_template('index.html')
 
 
-
 @app.route('/getinfo_owner')
+def getinfo_owner():
+    return render_template('info_owner.html')
+
+@app.route('/getinfo_dataset')
 def getinfo_dataset():
-    return render_template('info.html')
+    return render_template('info_dataset.html')
 
 
 @app.route('/predictdata',methods=['GET','POST'])
