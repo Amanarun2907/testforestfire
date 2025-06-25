@@ -43,9 +43,15 @@ if __name__ == '__main__':
     app.run(debug=True,host="0.0.0.0")
 
 # important commands that is written in the terminal
-# 1. pip install -r requirements.txt
-# 2. python application.py
-# 3. ls -a 
+# 1 pip install -r requirements.txt
+# 2 python application.py
+# 3 ls -a 
 # 4  git remote -v 
-# 5. git remote rm origin
+# 5 git remote rm origin
 # 6 . git init
+# 7  git add .
+# 8  git status 
+# 9  git commit -m "first commit"
+# 10 git branch -M main
+# 11 git remote add origin https://github.com/Amanarun2907/testforestfire.git
+# 12 git push -u origin main
